@@ -1,5 +1,5 @@
-monthly income = float(input("Enter your monthly income"))
-monthly expenses = float(input("Enter your total monthly expenses"))
+monthly income = float(input("Enter your monthly income: "))
+monthly expenses = float(input("Enter your total monthly expenses: "))
 
 Monthly Savings = monthly income - monthly expenses
 
