@@ -1,3 +1,3 @@
-task = input("Enter your task: ")
-priority = input("Priority (high, medium, low): ")
-time_bound = input("Is it time-bound? (yes/no): ")
+Task = input("Enter your Task: ")
+Priority = input("What is it's Priority (high/medium/low): ")
+Time-bound = input("Is it Time-bound? (yes/no): ")
