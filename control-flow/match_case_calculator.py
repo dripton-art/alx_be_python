@@ -16,5 +16,5 @@ match operation:
         else:
             result = num1 / num2
     case _:
-        print("invalid operation!")
+        result = ("invalid operation!")
         print("The result is [result]")
