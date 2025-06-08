@@ -11,16 +11,13 @@ def convert_to_fahrenheit(celsius):
     # Add 32 to shift from Celsius zero point to Fahrenheit scale
     return celsius * CELSIUS_TO_FAHRENHEIT_FACTOR + 32 
 
-try:
-    temp = float(input("Enter the temperature to convert: "))
-    unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").strip().upper()
+temp = float(input("Enter the temperature to convert: "))
+unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").strip().upper()
 
-    if unit == "C":
-        print(f"{temp} is {convert_to_fahrenheit(temp):.1F}°F")
-    elif unit == "F":
-        print(f"{temp} is {convert_to_celsius(temp):.1F}°C")
-    else:
-        print("Invalid temperature. Please enter a numeric value")
+if unit == "C":
+    print(f"{temp} is {convert_to_fahrenheit(temp):.1F}°F")
+elif unit == "F":
+    print(f"{temp} is {convert_to_celsius(temp):.1F}°C")
+else:
+    print["Invalid temperature. Please enter a numeric value."]
 
-except ValueError:
-    print("Invalid temperature. Please enter a numeric value")
